@@ -1,0 +1,49 @@
+1. Erosi (Erosion)
+Fungsi:
+Mengurangi atau mengikis bagian luar dari objek berwarna putih dalam gambar biner.
+
+Kegunaan:
+Digunakan untuk menghapus gangguan kecil (noise) yang berwarna putih.
+
+Membantu memisahkan objek yang saling berdekatan atau menempel.
+
+Menjadikan tepi objek lebih tajam dan jelas.
+
+Menghilangkan titik-titik kecil yang tidak diperlukan dalam citra.
+
+2. Dilasi (Dilation)
+Fungsi:
+Memperluas ukuran area objek putih, sehingga tampilannya menjadi lebih besar dan tebal.
+
+Kegunaan:
+Berguna untuk mengisi celah kecil atau lubang pada objek putih.
+
+Menyatukan bagian-bagian objek yang terpisah atau nyaris putus.
+
+Membuat objek tipis tampak lebih tebal dan kuat.
+
+Sering digunakan untuk memperjelas bentuk utama objek.
+
+3. Opening
+Fungsi:
+Kombinasi dari erosi yang diikuti oleh dilasi untuk membersihkan noise tanpa merusak struktur utama objek.
+
+Kegunaan:
+Cocok untuk menghilangkan bintik-bintik putih kecil yang mengganggu.
+
+Menyaring noise dari latar belakang gambar tanpa merusak bentuk asli.
+
+Ideal sebagai langkah awal sebelum proses analisis citra lebih lanjut.
+
+4. Closing
+Fungsi:
+Gabungan dari dilasi diikuti oleh erosi yang berfungsi menutup celah atau lubang kecil dalam objek.
+
+Kegunaan:
+Digunakan untuk menambal lubang-lubang hitam kecil di dalam objek putih.
+
+Membantu menggabungkan bagian-bagian objek putih yang terputus.
+
+Membuat kontur objek lebih utuh dan rapi.
+
+Umumnya dipakai untuk menyempurnakan hasil segmentasi gambar.
